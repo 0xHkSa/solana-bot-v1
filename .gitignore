@@ -1,4 +1,26 @@
+# Dependency directories
 node_modules/
+
+# TypeScript compilation output
 dist/
+
+# Environment variables
 .env
+
+# Logs
 *.log
+
+# macOS system files
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Wallet file
+wallet.json
+
+# npm package files
+package-lock.json
