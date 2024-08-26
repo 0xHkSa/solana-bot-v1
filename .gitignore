@@ -1,29 +1,33 @@
-# Dependency directories
+# Dependencies
 node_modules/
 
-# TypeScript compilation output
-dist/
+# Wallet files (sensitive information)
+wallet.json
+second_wallet.json
 
 # Environment variables
 .env
-.prettierrc
-.prettierignore
 
 # Logs
 *.log
 
-# macOS system files
+# OS generated files
 .DS_Store
 
 # Editor directories and files
-.idea/
 .vscode/
-*.swp
-*.swo
 
-# Wallet file
-wallet.json
-second_wallet.json
+# Prettier config files (if you want to keep these local)
+.prettierignore
+.prettierignore copy
+.prettierrc
 
-# npm package files
-package-lock.json
+# Typescript build output
+dist/
+*.js
+*.js.map
+
+# Keep these files
+!package.json
+!package-lock.json
+!tsconfig.json
