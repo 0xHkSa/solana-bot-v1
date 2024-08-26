@@ -6,6 +6,8 @@ dist/
 
 # Environment variables
 .env
+.prettierrc
+.prettierignore
 
 # Logs
 *.log
@@ -21,6 +23,7 @@ dist/
 
 # Wallet file
 wallet.json
+second_wallet.json
 
 # npm package files
 package-lock.json
